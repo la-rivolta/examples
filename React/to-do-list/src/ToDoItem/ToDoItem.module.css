@@ -1,0 +1,26 @@
+.description{
+    font-size: 13px;
+    color: black;
+    margin-left: 50px;
+    width: 200px;
+}
+
+/* .description, .checkbox{
+    margin: 10px;
+} */
+
+.text{
+    color: blue;
+    font-size: 10px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+    margin-left: 250px;
+}

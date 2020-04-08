@@ -1,0 +1,24 @@
+@include extjs-panel-ui(
+        $ui: 'topPanel',
+        $ui-header-color: #fff,
+        $ui-header-glyph-color: #fff,
+        $ui-header-glyph-opacity: 1,
+        $ui-header-background-color: rgb(27, 167, 27),
+        $ui-header-padding: 0,
+        $ui-header-text-margin: 10px,
+        $ui-header-noborder-adjust: false
+);
+
+@include extjs-button-small-ui(
+        $ui: 'greenButton',
+        $background-color: rgb(27, 167, 27),
+        $border-color: rgb(27, 167, 27),
+        $border-radius: 2px,
+        $color: white
+);
+
+.x-window-body {
+  background: white !important;
+  height: 100% !important;
+}
+

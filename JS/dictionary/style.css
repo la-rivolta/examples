@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: lavender;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+h3{
+    margin-top: 40px;
+}
+
+.inputWords{
+    margin-top: 30px;
+}
+
+.inputWords label{
+    margin: 0 20px;
+}
+
+#input-eng, #input-rus{
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: lavender;
+}
+
+button{
+    line-height: 20px;
+    background-color: indianred;
+    border: 1px solid indianred;
+    border-radius: 2px;
+}
+
+#table{
+    margin-top: 20px;
+    margin-left: 35%;
+    width: 30%;
+    border: none;
+}
+
+.coll{
+    border: none;
+    padding: 5px 10px;
+}
+
+.buttonCell{
+    width: 100px;
+}
+
+.translate, .russian{
+    width: 100px;
+}
+
+.btn-delete{
+    width: 100px;
+}
