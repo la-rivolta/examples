@@ -1,0 +1,39 @@
+.resolvedClass{
+    text-decoration : line-through
+}
+
+.deal{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+label {
+    color: #000;
+    cursor: default;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 10px 0;
+    vertical-align: middle;
+    font-size: 17px;
+  }
+   
+  label:before {
+    content: " ";
+    color: #643d6e;
+    display: inline-block;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFF5;
+    border: 1px solid  #a982b4;
+    border-radius: 2px;
+    vertical-align: middle;
+  }
+   
+  input:checked + label:before {
+    content: "x";
+  }

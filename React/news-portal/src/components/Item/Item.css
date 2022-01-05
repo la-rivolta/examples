@@ -1,0 +1,55 @@
+.twoTitle{
+width: 300px;
+border-left: 2px solid #004FEC;
+padding-left: 20px;
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+/* or 120% */
+
+
+/* black main color */
+
+color: #333D51;
+}
+.publishedAt{
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+color: #333D51;
+display: block;
+float: right;
+margin-right: 20px;
+}
+
+.source{
+font-family: 'Proxima Nova lt';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+display: block;
+padding-left: 20px;
+float: left;
+padding-top: 15px;
+}
+
+.Item{
+    width: 350px;
+    height: 290px;
+    font-family: 'Proxima Nova Rg';
+    position:relative;
+}
+
+.bottom-item{
+	position:absolute; /* добавили */
+	bottom: 0; /* добавили */
+    align-items: center;
+    vertical-align: bottom;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

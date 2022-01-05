@@ -1,0 +1,23 @@
+h1{
+    margin-top: 135px;
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    /* or 56px */
+    line-height: 93%;
+
+
+    /* black main color */
+
+    color: #333D51;
+    font-family: 'Proxima Nova Rg';
+}
+
+h1 span{
+    color: #004FEC;
+}
+.allItems{
+    display: inline-block;
+}
+

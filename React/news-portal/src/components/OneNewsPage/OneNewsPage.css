@@ -1,0 +1,92 @@
+.OnePage{
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.left{
+    display: inline-block;
+    width: 350px;
+}
+.OnePageTitle{
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+color: rgb(57, 58, 61);
+width: 400px;
+float: left;
+margin-right: 20px;
+display: block;
+margin-bottom: 30px;
+line-height: 43px;
+}
+
+.source{
+float: left;
+margin-top: 30px;
+width: 63px;
+height: 30px;
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+color: rgba(51, 61, 81, 0.5);
+
+}
+.publishedAt{
+    float: left;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 37px;
+    margin-top: 40px;
+/* identical to box height */
+
+
+/* black main color */
+
+color: #333D51;
+}
+.right{
+    display: block;
+    width: 600px;
+    text-align: left;
+    position: relative;
+}
+
+.Image img{
+    width: 540px;
+    display: block;
+    float: left;
+    position: absolute;
+    left: 80px;
+}
+
+.description{
+    display: block;
+    margin-top: 370px;
+    width: 540px;
+    margin-left: 140px;
+    text-align: left;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+/* or 140% */
+}
+
+.linkToSource{
+    text-align: left;
+}
+
+.linkToSource a{
+    color: #004FEC;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+}

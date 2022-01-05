@@ -1,0 +1,77 @@
+.aboutMe{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 135px;
+    position:relative;
+    margin-bottom: 90px;
+}
+
+.Image{
+    width: 540px;
+    height: 340px;
+    display: block;
+    position:absolute; /* добавили */
+	right: 0; /* добавили */
+}
+
+.Contacts{
+    display: block; 
+}
+
+.phone{
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 93%;
+
+color: #004FEC;
+}
+
+.Name{
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+color: #333D51;
+padding: 20px;
+border-left: 2px solid #004FEC;
+margin-top: 50px;
+}
+
+.email{
+font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+margin-top: 25px;
+color: #333D51;
+}
+
+.employee{
+font-family: 'Proxima Nova Lt';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+margin-top: 52px;
+color: rgba(51, 61, 81, 0.5);
+
+}
+
+.technology{
+font-family: 'Proxima Nova Lt';
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+margin-top: 25px;
+color: #333D51;
+}
+
+.technology span{
+    color: #004FEC;
+}

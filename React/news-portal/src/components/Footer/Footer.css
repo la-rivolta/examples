@@ -1,0 +1,61 @@
+.footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.left{
+    display: block;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #333D51;
+    line-height: 1.0;
+}
+
+.left span{
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    
+    color: #333D51;
+}
+
+.center{
+    display: block;
+    font-family: 'Proxima Nova Rg';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #333D51;
+}
+
+.right{
+    display: block;
+    font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+color: #333D51;
+line-height: 1;
+}
+
+.right span{
+    font-family: 'Proxima Nova Rg';
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 30px;
+text-align: right;
+color: #333D51;
+}
