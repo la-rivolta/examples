@@ -1,4 +1,4 @@
-# my-work
+# examples
 In this repository are my work on JS, ExtJs, and React
 
 In folder React you could see 4 projects:
